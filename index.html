@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+        <div id="player">
+        
+            </div>
+    <div id="dz-root"></div>
+    <script src="https://e-cdns-files.dzcdn.net/js/min/dz.js"></script>
+    <script>
+        DZ.init({
+            appId  : '394864',
+            channelUrl : 'http://nikimusics.com/channel.html'
+        });
+    </script>
+    <label>Исполнитель  </label>
+    <input type="text" id="artistField">
+    <br>
+    <br>
+    <label>Название трека</label>
+    <input type="text" id="trackField">
+    <br>
+    <br>
+    <button id="searchBtn">Искать</button>  
+    <script src="script.js"></script>
+    
+</body>
+</html>
